@@ -1,58 +1,15 @@
-body {
-    height: 100vh;
+*{
+  background-color: green;
+  color: red;
+  text-align: center;
+   background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFuZHNjYXBlJTIwYmVhdXR5fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+  background-size: cover;
 }
-
-.container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 350px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-}
-
-h1 {
-    text-align: center;
-}
-
-.task-input {
-    display: flex;
-    gap: 10px;
-}
-
-input {
-    flex: 1;
-    padding: 10px;
-}
-
-button {
-    padding: 10px;
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-li {
-    display: flex;
-    justify-content: space-between;
-    background: #eee;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-.completed {
-    text-decoration: line-through;
-    color: gray;
+#btn{
+  background-color: #160e0e;
+  color: antiquewhite;
+  color: green;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
 }
