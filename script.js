@@ -1,15 +1,22 @@
-const name1 = document.getElementById('name1');
-const name2 = document.getElementById('name2');
-const result= document.getElementById('result');
-const form = document.getElementById('love-form');
-form.addEventListener('submit', function(e) {
-  e.preventDefault();
-  const name1Value = name1.value.trim().length;
-  const name2Value = name2.value.trim().length;
-  if (name1Value === 0 || name2Value === 0) {
-    result.textContent = 'Please enter both names.';
-    return;
-  }
-  const resultValue = Math.pow((name1Value + name2Value), 17) % 101;
-document.querySelector('h2').textContent = `Love Percentage: ${resultValue}%`;
-});
+const btn = document.getElementById("btn");
+btn.addEventListener("click", () => {
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
+})
+const btn1 = document.getElementById("btn1");
+btn1.addEventListener("click", () => {
+  
+  document.body.style.backgroundColor = btn1.style.backgroundColor;
+})  
+const btn2 = document.getElementById("btn2");
+btn2.addEventListener("click", () => {
+  document.body.style.backgroundColor = btn2.style.backgroundColor;
+})  
+const btn3 = document.getElementById("btn3");
+btn3.addEventListener("click", () => {
+  document.body.style.backgroundColor = btn3.style.backgroundColor;
+}) 
+const btn4 = document.getElementById("btn4");
+btn4.addEventListener("click", () => {
+  document.body.style.backgroundColor = btn4.style.backgroundColor;
+})
