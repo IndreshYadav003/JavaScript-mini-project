@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskFlow</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Calculater</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-    <div class="container">
-        <h1>TaskFlow</h1>
-
-        <div class="task-input">
-            <input type="text" id="taskInput" placeholder="Enter a task">
-            <button onclick="addTask()">Add</button>
-        </div>
-
-        <ul id="taskList"></ul>
-    </div>
-
-    <script src="app.js"></script>
+<body style=  "background-image:url('./omage.png'); background-size:cover; background-repeat:no-repeat; background-position:center; height:100vh; width:100vw;">
+  <section class="container">
+    <h1>Love Calculator</h1>
+    <form id="love-form">
+      <input type="text" id="name1" name="name1" placeholder="Enter your name Bob" required>
+      <input type="text" id="name2" name="name2" placeholder="Enter their name Alice" required>
+      <button type="submit">Calculate Love</button>
+    </form>
+    <h2 style="margin-top: 20px; font-size: 1.2em; font-weight: bold;">Result is:</h2>
+    
+  </section>
+  <script src="script.js"></script>
 </body>
 </html>
